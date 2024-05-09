@@ -8,7 +8,7 @@ import path from 'path';
 dotenv.config();
 
 mongoose
-    .connect("mongodb://localhost:27017")
+    .connect(process.env.MONGO)
     .then(() => {
         console.log('Connected to MongoDB');
     })
@@ -19,6 +19,9 @@ mongoose
 const __dirname = path.resolve();
 
 const app = express();
+
+
+
 
 app.use(express.static(path.join(__dirname, '/client/dist')));
 
