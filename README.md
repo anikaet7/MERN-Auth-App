@@ -2,7 +2,6 @@
 
 **Full-Stack MERN Authentication Project**
 
-Welcome to our comprehensive guide on building and deploying a Full-Stack MERN (MongoDB, Express.js, React.js, Node.js) Authentication project. In this tutorial, we'll walk you through each step, from setting up the frontend to deploying your application.
 
 ### 1. Frontend Setup
 - Start by installing React.js and integrating Tailwind CSS for seamless styling.
